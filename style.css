@@ -24,14 +24,7 @@ body {
     color: teal;
 }
 
-.fake-elon {
-    display: none;
-    position: absolute;
-    color: red;
-    opacity: .5;
-}
-
-.elon span, .fake-elon span {
+.elon span {
     position: relative;
     display: inline-block;
     transition: linear transform 5s;
