@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elon, .fake-elon {
+    width: max-content;
+    height: max-content;
+    font-size: 72px;
+}
+
+.elon {
+    color: teal;
+}
+
+.fake-elon {
+    display: none;
+    position: absolute;
+    color: red;
+    opacity: .5;
+}
+
+.elon span, .fake-elon span {
+    position: relative;
+    display: inline-block;
+    transition: linear transform 5s;
+}
+
+.elon:hover .elon__e {
+    transform: translateX(460px);
+}
+.elon:hover .elon__l {
+    transform: translateX(460px);
+}
+.elon:hover .elon__o {
+    transform: translateX(-137px);
+}
+.elon:hover .elon__n {
+    transform: translateX(-137px);
+}
+.elon:hover .elon__space {
+    transform: translateX(0px);
+}
+.elon:hover .elon__m {
+    transform: translateX(65px);
+}
+.elon:hover .elon__u {
+    transform: translateX(-87px);
+}
+.elon:hover .elon__s {
+    transform: translateX(-289px);
+}
+.elon:hover .elon__k {
+    transform: translateX(-289px);
+}
