@@ -5,7 +5,11 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="elon">
+    <button onclick="this.className='hidden'; document.getElementsByClassName('elon')[0].className='elon'">Узнать правду...</button>
+    <div class="elon hidden"
+         onmouseenter="document.getElementsByTagName('body')[0].className='hover'"
+         onmouseleave="document.getElementsByTagName('body')[0].className=''"
+    >
         <span class="elon__e">И</span>
         <span class="elon__l">Л</span>
         <span class="elon__o">О</span>
@@ -15,6 +19,19 @@
         <span class="elon__u">А</span>
         <span class="elon__s">С</span>
         <span class="elon__k">К</span>
-    </div>    
+        <span class="elon__ellipsis">...</span>
+    </div>
+    <!-- <div class="fake-elon">
+        <span class="fake-elon__ellipsis">...</span>
+        <span class="fake-elon__o">О</span>
+        <span class="fake-elon__n">Н</span>
+        <span class="fake-elon__space">&nbsp;</span>
+        <span class="fake-elon__s">С</span>
+        <span class="fake-elon__k">К</span>
+        <span class="fake-elon__u">А</span>
+        <span class="fake-elon__m">М</span>
+        <span class="fake-elon__e">И</span>
+        <span class="fake-elon__l">Л</span>
+    </div> -->
 </body>
 </html>
