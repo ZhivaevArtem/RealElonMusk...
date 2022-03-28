@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <button onclick="this.className='hidden'; document.getElementsByClassName('elon')[0].className='elon-static'">Узнать правду...</button>
+    <button onclick="this.className='hidden'; document.getElementsByClassName('elon')[0].className='elon'">Узнать правду...</button>
     <div class="elon hidden"
-         onmousemove="this.className='elon'; document.getElementsByTagName('body')[0].className='hover'"
+         onmouseenter="document.getElementsByTagName('body')[0].className='hover'"
          onmouseleave="document.getElementsByTagName('body')[0].className=''"
     >
         <span class="elon__e">И</span>

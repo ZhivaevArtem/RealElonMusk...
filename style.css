@@ -14,15 +14,6 @@ body {
     justify-content: center;
 }
 
-.elon-static {
-    width: max-content;
-    height: max-content;
-    font-size: 72px;
-    color: #98DE00;
-    z-index: 9999;
-    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/elon_musk_pointer.png) , pointer!important;
-}
-
 .elon, .fake-elon {
     width: max-content;
     height: max-content;
